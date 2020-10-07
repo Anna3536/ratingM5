@@ -1,0 +1,19 @@
+.container {
+    height: 100vh;
+}
+
+.heart {
+    color: lightpink;
+    font-size: 80px;
+    width: 100px;
+    padding: 5px;
+}
+
+.pintado {
+    color: red;
+}
+
+i:hover,
+.heart:hover~i {
+    color: red;
+}
